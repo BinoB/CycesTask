@@ -13,7 +13,7 @@ const Dashboard = () => {
           <Link to="/usersearch">User List</Link>
         </button>
         <button className='user-button btn btn-danger'>
-          <Link to="/login">Logout</Link>
+          <Link to="/">Logout</Link>
         </button>
       </div>
     </div>
