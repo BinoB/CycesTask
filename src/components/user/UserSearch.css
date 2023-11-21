@@ -1,0 +1,112 @@
+
+
+.user-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .avatar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .create-user-section{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+ 
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px; 
+}
+
+
+.action-buttons button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.action-buttons button:last-child {
+  background-color: #f44336; 
+  margin-right: 0; 
+}
+
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+
+.create{
+  display: flex;
+  justify-content: right;
+}
